@@ -1,0 +1,60 @@
+//?Colors
+$primary-color: #ffda49;
+$secondary-color: #fff0ca;
+$accent-color: #005246;
+
+$success-color: #009218;
+$danger-color: #ff3d51;
+$alternate-color: #5aabe9;
+$basis-color: #f0b41e;
+
+$color-grey-light: #a1a1a1;
+$color-grey: #666;
+$color-grey-dark: #333;
+
+$color-white: #fff;
+$color-dark: #121212;
+
+$color-light-black: #e5e5e5;
+
+//*Social Colors
+$facebook-color: #3b5998;
+$whatsapp-color: #25d366;
+$instagram-color: #e1306c;
+$twitter-color: #1da1f2;
+$google-color: #db4437;
+
+//*Transition
+$transition-fastest: all 0.25s cubic-bezier(0.21, 0.45, 0.83, 0.67);
+$transition-faster: all 0.5s cubic-bezier(0.21, 0.45, 0.83, 0.67);
+$transition-fast: all 0.75s cubic-bezier(0.21, 0.45, 0.83, 0.67);
+$transition-slow: all 1s cubic-bezier(0.21, 0.45, 0.83, 0.67);
+
+//*Font Size
+$small-size: 1.8rem;
+$default-size: 2.2rem;
+$medium-size: 3.5rem;
+$big-size: 5rem;
+
+//*Box shadows
+%neu-shadow {
+  background: #e5e5e5;
+  box-shadow: 20px 20px 60px #c3c3c3, -20px -20px 60px #ffffff;
+}
+
+%neu-shadow-linear {
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+
+$box-shadow-soft: 0 1px 2px rgba(#a1a1a1, 0.07), 0 2px 4px rgba(#a1a1a1, 0.07),
+  0 4px 8px rgba(#a1a1a1, 0.07), 0 8px 16px rgba(#a1a1a1, 0.07),
+  0 16px 32px rgba(#a1a1a1, 0.07), 0 32px 64px rgba(#a1a1a1, 0.07);
+
+$box-shadow-short: 0 1px 1px rgba(#a1a1a1, 0.07), 0 2px 2px rgba(#a1a1a1, 0.07),
+  0 4px 4px rgba(#a1a1a1, 0.07), 0 6px 8px rgba(#a1a1a1, 0.07),
+  0 8px 16px rgba(#a1a1a1, 0.07);
+
+$box-shadow-long: 0 2px 1px rgba(#a1a1a1, 0.07), 0 4px 2px rgba(#a1a1a1, 0.07),
+  0 8px 4px rgba(#a1a1a1, 0.07), 0 16px 8px rgba(#a1a1a1, 0.07),
+  0 32px 16px rgba(#a1a1a1, 0.07);
