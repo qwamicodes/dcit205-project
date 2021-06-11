@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://api.fontshare.com/css?f[]=chillax@200,300,400,500,600,700,1&display=swap"
+      rel="stylesheet"
+    />
     <title>Chrisma Junior High School</title>
   </head>
   <body>
+    <img id="background-svg" src="./img/svg/background.svg" alt="" />
     <main class="app">
       <nav class="nav">
         <div class="nav__brand">
@@ -16,7 +22,10 @@
             alt="School logo"
             class="nav__brand--logo"
           />
-          <h3 class="nav__brand--name">Chrisma <span>School</span></h3>
+          <h3 class="nav__brand--name">
+            <span>Chrisma</span>
+            <span>School</span>
+          </h3>
         </div>
         <ul class="nav__link">
           <li class="nav__link--item"><a href="#">About</a></li>
@@ -28,7 +37,19 @@
           <button>Apply</button>
         </div>
       </nav>
-      <header class="header"></header>
+      <header class="header">
+        <div class="header-left">
+          <div class="header__herobox">
+            <h4>Equipping</h4>
+            <h2>Future leaders</h2>
+            <h5>Quality . Education . Excellence</h5>
+            <button>Enroll now</button>
+          </div>
+        </div>
+        <div class="header-right">
+          <img src="./img/svg/studing.svg" alt="Studying SVG" />
+        </div>
+      </header>
       <section class="about"></section>
       <section class="course"></section>
       <section class="achievement"></section>

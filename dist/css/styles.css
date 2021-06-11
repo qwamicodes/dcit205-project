@@ -1,13 +1,13 @@
-.u-flex-center, .u-flex-even, .u-flex-around, .u-flex-between, .u-flex-bottom {
+.u-flex-center, .u-flex-even, .u-flex-around, .u-flex-between, .u-flex-bottom, .nav__link, .nav__cta {
   display: flex; }
 
-.u-flex-center, .u-flex-bottom {
+.u-flex-center, .u-flex-bottom, .nav__cta {
   justify-content: center; }
 
-.u-flex-even {
+.u-flex-even, .nav__link {
   justify-content: space-evenly; }
 
-.u-flex-center, .u-flex-even, .u-flex-around, .u-flex-between, .u-flex-bottom {
+.u-flex-center, .u-flex-even, .u-flex-around, .u-flex-between, .u-flex-bottom, .nav__link, .nav__cta {
   align-items: center; }
 
 .u-flex-bottom {
@@ -168,13 +168,17 @@ body {
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
   color: #666;
-  max-width: 192rem; }
+  max-width: 192rem;
+  font-family: "Chillax", sans-serif; }
 
 a {
   text-decoration: none; }
 
 ul {
   list-style-type: none; }
+
+button {
+  cursor: pointer; }
 
 input:focus,
 button:focus,
@@ -195,5 +199,84 @@ select {
   -moz-appearance: none;
   appearance: none; }
 
-#main {
+.app {
   position: relative; }
+
+#background-svg {
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+.header {
+  width: 100%;
+  height: 90vh;
+  padding: 0 5rem;
+  display: flex; }
+  .header-left {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    height: 90%; }
+  .header-right {
+    flex: 1; }
+  .header__herobox {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr) 40%;
+    height: 50%;
+    color: #005246;
+    padding: 0 10rem; }
+    .header__herobox h1,
+    .header__herobox h2,
+    .header__herobox h3,
+    .header__herobox h4,
+    .header__herobox h5 {
+      display: flex;
+      align-items: center; }
+    .header__herobox h2 {
+      font-size: 6rem; }
+    .header__herobox h4 {
+      font-weight: 300;
+      font-size: 2.5rem; }
+    .header__herobox h5 {
+      font-size: 1.8rem;
+      font-weight: 300; }
+    .header__herobox button {
+      border: 1px solid transparent;
+      background-color: #005246;
+      font-size: 2rem;
+      color: #fff;
+      height: 70%;
+      width: 70%;
+      margin-top: 5rem; }
+
+.nav {
+  height: 10vh;
+  width: 100%;
+  padding: 0 5rem;
+  display: grid;
+  grid-template-columns: 30% 50% 20%; }
+  .nav__brand {
+    padding: 0 5rem;
+    display: flex;
+    align-items: center; }
+    .nav__brand--logo {
+      height: 5rem;
+      width: 8rem; }
+    .nav__brand--name {
+      font-size: 2rem;
+      font-weight: 500;
+      padding-left: 2.5rem; }
+      .nav__brand--name span:first-child {
+        color: #005246; }
+      .nav__brand--name span {
+        color: #fff; }
+  .nav__link--item a {
+    color: #005246;
+    font-size: 2rem;
+    font-weight: 500; }
+  .nav__cta button {
+    font: 1.8rem "Chillax", sans-serif;
+    padding: 1rem 2rem;
+    background-color: #ffda49;
+    color: #fff;
+    border: 1px solid transparent; }

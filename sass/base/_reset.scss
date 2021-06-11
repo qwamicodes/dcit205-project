@@ -21,6 +21,7 @@ body {
   scroll-behavior: smooth;
   color: $color-grey;
   max-width: 192rem;
+  font-family: "Chillax", sans-serif;
 }
 
 a {
@@ -29,6 +30,10 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 input,
@@ -56,6 +61,12 @@ select {
   appearance: none;
 }
 
-#main {
+.app {
   position: relative;
+}
+
+#background-svg {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
