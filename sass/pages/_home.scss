@@ -1,0 +1,39 @@
+section {
+  padding: 0 5rem;
+}
+
+.about {
+  width: 100%;
+  padding: 6rem 5rem;
+  background-color: $secondary-color;
+}
+
+.course {
+  &-container {
+    padding: 6rem 0;
+  }
+
+  &__core,
+  &__elective {
+    h3 {
+      font-size: 2rem;
+      margin-left: 10rem;
+    }
+
+    &--subjects {
+      width: 100%;
+      @include flexeven;
+      margin: 5rem 0;
+    }
+
+    &--subject {
+      box-shadow: $box-shadow-short;
+      padding: 2rem 5rem;
+      font-size: 1.8rem;
+    }
+  }
+}
+
+.achievement {
+  background-color: $secondary-color;
+}

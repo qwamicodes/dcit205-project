@@ -1,0 +1,33 @@
+.card {
+  display: grid;
+  grid-template-rows: 30% 20% 50%;
+  width: 40rem;
+  height: 30rem;
+  background-color: $color-white;
+  box-shadow: $box-shadow-long;
+  border-radius: 1rem;
+  overflow: hidden;
+  padding: 1rem 1.5rem;
+
+  .card-icon {
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+  .card-title {
+    @include flexcenter;
+    font-size: 2rem;
+    font-weight: 500;
+    color: $accent-color;
+  }
+  .card-description {
+    @include flexcenter;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+.cards {
+  width: 100%;
+  @include flexeven;
+  padding: 8rem 0;
+}
