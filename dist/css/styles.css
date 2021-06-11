@@ -1,13 +1,13 @@
-.u-flex-center, .u-flex-even, .u-flex-around, .u-flex-between, .u-flex-bottom, .nav__link, .nav__cta, .card .card-title, .card .card-description, .cards, .course__core--subjects, .course__elective--subjects {
+.u-flex-center, .u-flex-even, .u-flex-around, .u-flex-between, .u-flex-bottom, .nav__link, .nav__cta, .card .card-title, .card .card-description, .cards, .course__core--subjects, .course__elective--subjects, .achievement-container {
   display: flex; }
 
 .u-flex-center, .u-flex-bottom, .nav__cta, .card .card-title, .card .card-description {
   justify-content: center; }
 
-.u-flex-even, .nav__link, .cards, .course__core--subjects, .course__elective--subjects {
+.u-flex-even, .nav__link, .cards, .course__core--subjects, .course__elective--subjects, .achievement-container {
   justify-content: space-evenly; }
 
-.u-flex-center, .u-flex-even, .u-flex-around, .u-flex-between, .u-flex-bottom, .nav__link, .nav__cta, .card .card-title, .card .card-description, .cards, .course__core--subjects, .course__elective--subjects {
+.u-flex-center, .u-flex-even, .u-flex-around, .u-flex-between, .u-flex-bottom, .nav__link, .nav__cta, .card .card-title, .card .card-description, .cards, .course__core--subjects, .course__elective--subjects, .achievement-container {
   align-items: center; }
 
 .u-flex-bottom {
@@ -355,3 +355,14 @@ section {
 
 .achievement {
   background-color: #fff0ca; }
+  .achievement__item img {
+    width: 40rem;
+    height: 60rem;
+    object-fit: cover; }
+  .achievement__item div {
+    background-color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 40rem;
+    padding: 1rem 2rem;
+    margin: 3rem 0; }
