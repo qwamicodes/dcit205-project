@@ -25,6 +25,10 @@
       font-weight: 500;
       padding-left: 2.5rem;
 
+      &-a {
+        transition: $transition-faster;
+      }
+
       span:first-child {
         color: $accent-color;
       }
