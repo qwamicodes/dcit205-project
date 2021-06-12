@@ -265,7 +265,7 @@ select {
       background-color: #005246;
       font-size: 2rem;
       color: #fff;
-      height: 70%;
+      height: 60%;
       width: 70%;
       margin-top: 5rem;
       letter-spacing: 0.2rem; }
@@ -279,7 +279,8 @@ select {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 20; }
+  z-index: 20;
+  transition: all 0.5s cubic-bezier(0.21, 0.45, 0.83, 0.67); }
   .nav__brand {
     padding: 0 5rem;
     display: flex;

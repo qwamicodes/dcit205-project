@@ -8,6 +8,7 @@
   top: 0;
   left: 0;
   z-index: 20;
+  transition: $transition-faster;
 
   &__brand {
     padding: 0 5rem;
