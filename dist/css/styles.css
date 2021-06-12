@@ -366,3 +366,19 @@ section {
     width: 40rem;
     padding: 1rem 2rem;
     margin: 3rem 0; }
+
+.faq-container {
+  padding: 6rem 5rem; }
+
+.faq__question {
+  width: 60%;
+  color: #005246;
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding: 2rem 0;
+  cursor: pointer; }
+
+.faq__line {
+  width: 50%;
+  height: 0.2rem;
+  background-color: #333; }

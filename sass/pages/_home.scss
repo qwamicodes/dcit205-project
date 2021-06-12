@@ -58,3 +58,27 @@ section {
     }
   }
 }
+
+.faq {
+  &-container {
+    padding: 6rem 5rem;
+  }
+
+  &__question {
+    width: 60%;
+    color: $accent-color;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 2rem 0;
+    cursor: pointer;
+
+    &__answer {
+    }
+  }
+
+  &__line {
+    width: 50%;
+    height: 0.2rem;
+    background-color: $color-grey-dark;
+  }
+}
